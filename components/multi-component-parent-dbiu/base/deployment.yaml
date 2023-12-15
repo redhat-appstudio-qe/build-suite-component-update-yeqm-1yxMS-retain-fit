@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multi-component-parent-dbiu
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/build-e2e-mthr-tenant/build-suite-component-update-yeqm/multi-component-parent-dbiu@sha256:85eb36a6e5e0a321085b968f45a2fe130dd54af3635215c6205506f2bc0f2cae
         imagePullPolicy: Always
         name: container-image
         ports:
